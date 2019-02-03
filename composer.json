@@ -1,0 +1,27 @@
+{
+    "name": "crafted-systems/sms-kenya",
+    "description": "SMS Kenya API",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Crafted Systems",
+        "email": "hello@crafted.co.ke"
+    },
+    "autoload": {
+        "psr-4": {
+            "CraftedSystems\\SMSKenya\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CraftedSystems\\SMSKenya\\SMSKenyaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
